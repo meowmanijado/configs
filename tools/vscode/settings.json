@@ -1,0 +1,28 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.tabCompletion": true,
+    "php-cs-fixer.onsave": true,
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#388E3C",
+        "list.activeSelectionForeground": "#388E3C",
+        "list.inactiveSelectionForeground": "#388E3C",
+        "list.highlightForeground": "#388E3C",
+        "scrollbarSlider.activeBackground": "#388E3C50",
+        "editorSuggestWidget.highlightForeground": "#388E3C",
+        "textLink.foreground": "#388E3C",
+        "progressBar.background": "#388E3C",
+        "pickerGroup.foreground": "#388E3C",
+        "tab.activeBorder": "#388E3C",
+        "notificationLink.foreground": "#388E3C"
+    },
+    "materialTheme.cache.workbench.settings": {
+        "themeColours": "Default",
+    },
+    "editor.lineHeight": 20
+}

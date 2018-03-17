@@ -1,0 +1,54 @@
+{
+	"TestClass for PHP": {
+		"prefix": "ctest",
+		"body": [
+			"",
+			"namespace Tests\\Unit;",
+			"",
+			"use Tests\\TestCase;",
+			"use Illuminate\\Foundation\\Testing\\RefreshDatabase;",
+			"",
+			"class $1 extends TestCase",
+			"{",
+			"	use RefreshDatabase;",
+			"	/** test  */",
+			"	public function foo()",
+			"	{",
+			"    ",
+			"	}"
+			"}"
+		],
+		"description": ""
+	},
+	"Public method": {
+		"prefix": "met",
+		"body": [
+			"public function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "New public method"
+	},
+	"New test method": {
+		"prefix": "mtest",
+		"body": [
+			"/** @test  */",
+			"public function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "New test method"
+	},
+	"New protect method": {
+		"prefix": "pro",
+		"body": [
+			"protected function $1()",
+			"{",
+			"\t$2",
+			"}"
+		],
+		"description": "New test method"
+	}
+}
