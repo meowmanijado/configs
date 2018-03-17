@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php
+
+namespace Tests\Feature;
+
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+
+class ${TM_FILENAME/(\w+)\.php/\1/g} extends TestCase
+{
+	use DatabaseMigrations;
+    
+    /** @test */
+    public function testExample()
+    {
+        
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ctest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
+

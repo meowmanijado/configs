@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 10,
+	"line_padding_top": 10,
+	"phpunit-sublime-terminal": "iTerm",
+	"remember_full_screen": true,
+	"theme": "Material-Theme.sublime-theme"
+}
