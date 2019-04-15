@@ -1,28 +1,57 @@
 {
+
+
+
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": false,
     "explorer.openEditors.visible": 0,
     "editor.minimap.enabled": false,
-    "editor.tabCompletion": true,
+    "editor.tabCompletion": "on",
     "php-cs-fixer.onsave": true,
     "window.zoomLevel": 1,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorTheme": "Material Theme",
+    "workbench.colorTheme": "Night Owl",
     "workbench.colorCustomizations": {
-        "activityBarBadge.background": "#388E3C",
-        "list.activeSelectionForeground": "#388E3C",
-        "list.inactiveSelectionForeground": "#388E3C",
-        "list.highlightForeground": "#388E3C",
-        "scrollbarSlider.activeBackground": "#388E3C50",
-        "editorSuggestWidget.highlightForeground": "#388E3C",
-        "textLink.foreground": "#388E3C",
-        "progressBar.background": "#388E3C",
-        "pickerGroup.foreground": "#388E3C",
-        "tab.activeBorder": "#388E3C",
-        "notificationLink.foreground": "#388E3C"
+        // Scrollbar
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+    
+        // Gutter (same as tweaking scm.diffDecorations?)
+        "editorGutter.addedBackground": "#0000",
+        "editorGutter.modifiedBackground": "#0000",
+        "editorGutter.deletedBackground": "#0000"
     },
-    "materialTheme.cache.workbench.settings": {
-        "themeColours": "Default",
-    },
-    "editor.lineHeight": 20
+    "editor.lineHeight": 20,
+    "editor.wordWrap": "on",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1553782945842,
+    "git.ignoreMissingGitWarning": true,
+    "editor.formatOnType": true,
+    "breadcrumbs.enabled": false,
+    "carbon.fontFamily": "Anonymous Pro",
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": false,
+    "editor.lineNumbers": "off",
+    "zenMode.hideLineNumbers": false,
+    "editor.folding": false,
+    "editor.glyphMargin": false,
+    "sync.gist": "12834551eece1be44bcfb71f3d1540ac",
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderIndentGuides": false,
 }
